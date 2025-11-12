@@ -10,7 +10,7 @@ phases:
   pre_build:
     commands:
       - echo Granting execute permission to gradlew
-      - chmod +x ./gradlew # gradlew 스크립트에 실행 권한을 줍니다. (중요!)
+      - chmod +x ./payment-system/gradlew # gradlew 스크립트에 실행 권한을 줍니다. (중요!)
 
   build:
     commands:
